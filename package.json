@@ -24,9 +24,6 @@
     "url": "https://github.com/NicolasB2/protractor-workshop-2020/issues"
   },
   "homepage": "https://github.com/NicolasB2/protractor-workshop-2020#readme",
-  "dependencies": {
-    "protractor": "^7.0.0"
-  },
   "devDependencies": {
     "@types/jasminewd2": "^2.0.8",
     "@types/node": "^14.0.25",
