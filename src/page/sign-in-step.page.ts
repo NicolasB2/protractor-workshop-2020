@@ -12,7 +12,7 @@ export class SignInPage {
   }
 
   public async login(): Promise<void> {
-    await this.emailTf.sendKeys('aperdomobo@gmail.com');
+    await this.emailTf.sendKeys('nikobiober@gmail.com');
     await this.passwdTf.sendKeys('WorkshopProtractor');
     await this.submitBtn.click();
   }
