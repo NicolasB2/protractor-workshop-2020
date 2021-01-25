@@ -18,7 +18,7 @@ describe('Buy a t-shirt', () => {
       const summaryStepPage: SummaryStepPage = new SummaryStepPage();
 
       await menuContentPage.goToTShirtMenu();
-      await productListPage.addToCart();
+      await productListPage.selectProduct('Faded Short Sleeve T-shirts');
       await productAddedModalPage.clickModalBtn();
       await summaryStepPage.proceedToCheckout();
     });
